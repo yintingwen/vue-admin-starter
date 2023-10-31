@@ -1,0 +1,28 @@
+{
+  "name": "track-query-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.52.1",
+    "axios": "^1.6.0",
+    "dayjs": "^1.11.10",
+    "pinia": "^2.1.7",
+    "qs": "^6.11.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.69.5",
+    "unocss": "^0.57.1",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-export-merge": "^1.1.25",
+    "vite": "^4.4.5"
+  }
+}
