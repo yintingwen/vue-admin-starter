@@ -9,20 +9,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@arco-design/web-vue": "^2.52.1",
+    "@arco-design/web-vue": "^2.53.0",
     "axios": "^1.6.0",
     "dayjs": "^1.11.10",
     "pinia": "^2.1.7",
     "qs": "^6.11.2",
-    "vue": "^3.3.4",
+    "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue": "^4.4.0",
     "sass": "^1.69.5",
-    "unocss": "^0.57.1",
+    "unocss": "^0.57.2",
     "unplugin-auto-import": "^0.16.7",
     "unplugin-export-merge": "^1.1.25",
-    "vite": "^4.4.5"
+    "vite": "^4.5.0"
   }
 }

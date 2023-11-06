@@ -3,25 +3,15 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/apply',
-      name: 'Apply',
-      component: () => import('../views/ApplyView.vue')
-    },
-    {
-      path: '/code',
-      name: 'SmsCode',
-      component: () => import('../views/SmsCodeView.vue')
-    },
-    {
-      path: '/login',
-      name: 'Login',
-      component: () => import('../views/Login.vue')
-    },
-    {
-      path: "/:pathMatch*",
-      redirect: "/apply"
-    }
+    // {
+    //   path: '/login',
+    //   name: 'Login',
+    //   component: () => import('../view/Login.vue')
+    // },
+    // {
+    //   path: "/:pathMatch*",
+    //   redirect: "/apply"
+    // }
   ]
 })
 
